@@ -20,7 +20,12 @@ ModuleTextures::ModuleTextures() : Module()
 // Destructor
 ModuleTextures::~ModuleTextures() {
 
-	
+	/*
+	for (int i = 0; i < MAX_TEXTURES; ++i) {
+
+		delete textures[i];
+	}
+	*/
 }
 
 // Called before render is available
