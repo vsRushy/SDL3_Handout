@@ -10,7 +10,7 @@
 ModuleTextures::ModuleTextures() : Module()
 {
 	// TODO 5: Initialize all texture pointers to nullptr
-	// There is a better option of doing this in ModuleTextures.h, { nullptr }
+	// There is a better option of doing this in ModuleTextures.h, { nullptr };
 	/*for (int i = 0; i < MAX_TEXTURES; ++i) {
 
 		textures[i] = nullptr;
@@ -18,8 +18,10 @@ ModuleTextures::ModuleTextures() : Module()
 }
 
 // Destructor
-ModuleTextures::~ModuleTextures()
-{}
+ModuleTextures::~ModuleTextures() {
+
+	
+}
 
 // Called before render is available
 bool ModuleTextures::Init()

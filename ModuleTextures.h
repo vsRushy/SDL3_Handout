@@ -20,7 +20,7 @@ public:
 	SDL_Texture* const Load(const char* path);
 
 public:
-	SDL_Texture* textures[MAX_TEXTURES] = { nullptr }
+	SDL_Texture * textures[MAX_TEXTURES] = { nullptr };
 };
 
 #endif // __ModuleTextures_H__

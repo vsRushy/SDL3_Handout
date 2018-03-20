@@ -33,6 +33,8 @@ bool ModuleRender::Init()
 	}
 
 	// TODO 9: load a texture "test.png" to test is everything works well
+	
+	tex = App->textures->Load("test.png");
 
 	return ret;
 }
@@ -46,6 +48,8 @@ update_status ModuleRender::PreUpdate()
 	SDL_RenderClear(renderer);
 	
 	// TODO 10: Blit our test texture to check functionality
+
+	SDL_RenderCopy(renderer, tex, NULL, NULL);
 
 	return update_status::UPDATE_CONTINUE;
 }
