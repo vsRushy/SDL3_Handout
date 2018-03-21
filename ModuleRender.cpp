@@ -49,7 +49,7 @@ update_status ModuleRender::PreUpdate()
 	
 	// TODO 10: Blit our test texture to check functionality
 
-	Blit(tex, 0, 0, nullptr);
+	Blit(tex, SCREEN_WIDTH / 4, SCREEN_HEIGHT / 4, nullptr);
 
 	return update_status::UPDATE_CONTINUE;
 }
