@@ -14,7 +14,7 @@
     <ProjectGuid>{746CC4C3-787F-4B0E-AA66-E388FE3FF4F6}</ProjectGuid>
     <RootNamespace>SDLGame</RootNamespace>
     <ProjectName>SDL3 Handout</ProjectName>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -47,12 +47,12 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ExceptionHandling>false</ExceptionHandling>
-      <AdditionalIncludeDirectories>C:\Users\usuario\Desktop\SDL3_Handout-master\SDL3_Handout\SDL_image\include;C:\Users\usuario\Desktop\SDL3_Handout-master\SDL3_Handout\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gerardmf2\Desktop\SDL3_Handout-master%281%29\SDL3_Handout-master\SDL_image\include;C:\Users\gerardmf2\Desktop\SDL3_Handout-master%281%29\SDL3_Handout-master\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>C:\Users\usuario\Desktop\SDL3_Handout-master\SDL3_Handout\SDL_image\libx86;C:\Users\usuario\Desktop\SDL3_Handout-master\SDL3_Handout\SDL\libx86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\gerardmf2\Desktop\SDL3_Handout-master%281%29\SDL3_Handout-master\SDL_image\libx86;C:\Users\gerardmf2\Desktop\SDL3_Handout-master%281%29\SDL3_Handout-master\SDL\libx86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">

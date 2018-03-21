@@ -49,7 +49,7 @@ update_status ModuleRender::PreUpdate()
 	
 	// TODO 10: Blit our test texture to check functionality
 
-	SDL_RenderCopy(renderer, tex, NULL, NULL);
+	Blit(tex, 0, 0, nullptr);
 
 	return update_status::UPDATE_CONTINUE;
 }
